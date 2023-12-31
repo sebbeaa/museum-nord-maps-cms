@@ -4,20 +4,20 @@ import {SanityDocument} from 'sanity'
 
 const getPreviewUrl: any = (doc: any) => {
   return doc?.slug?.current
-    ? `https://gaia-maps-sebbetastian.vercel.app/#/${doc.slug.current}/fA9lVHjPKeTogx6PAAD_Y7SsB925GUSkLEANAAEB`
-    : `https://gaia-maps-sebbetastian.vercel.app/#/`
+    ? `http://localhost:5173/#/${doc.slug.current}/fA9lVHjPKeTogx6PAAD_Y7SsB925GUSkLEANAAEB`
+    : `http://localhost:5173/#/`
 }
 
 const getProdUrl: any = (doc: any) => {
   return doc?.slug?.current
-    ? `https://gaia-maps-sebbetastian.vercel.app/#/${doc.slug.current}`
-    : `https://gaia-maps-sebbetastian.vercel.app/#/`
+    ? `http://localhost:5173/#/${doc.slug.current}`
+    : `http://localhost:5173/#/`
 }
 
 const geoJsonGenerator: any = (doc: any) => {
   return doc?.slug?.current
-    ? `https://gaia-maps-sebbetastian.vercel.app/#/card/${doc.slug.current}/fA9lVHjPKeTogx6PAAD_Y7SsB925GUSkLEANAAEB`
-    : `https://gaia-maps-sebbetastian.vercel.app/#/`
+    ? `http://localhost:5173/#/card/${doc.slug.current}/fA9lVHjPKeTogx6PAAD_Y7SsB925GUSkLEANAAEB`
+    : `http://localhost:5173/#/`
 }
 
 const options = (func: Function) => {

@@ -3,7 +3,7 @@ import {deskTool} from 'sanity/desk'
 
 export default defineCliConfig({
   api: {
-    projectId: 'i3el3t92',
+    projectId: 's0874vj3',
     dataset: 'production',
   },
 })

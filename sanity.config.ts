@@ -8,9 +8,9 @@ import {media} from 'sanity-plugin-media'
 import {simplerColorInput} from 'sanity-plugin-simpler-color-input'
 export default defineConfig({
   name: 'default',
-  title: 'Map-Cms',
+  title: 'map-temp',
 
-  projectId: 'i3el3t92',
+  projectId: 's0874vj3',
   dataset: 'production',
 
   plugins: [
@@ -29,7 +29,7 @@ export default defineConfig({
   auth: createAuthStore({
     redirectOnSingle: false,
     // make `mode` says "replace"
-    projectId: 'i3el3t92',
+    projectId: 's0874vj3',
     dataset: 'production',
     mode: 'replace',
     providers: [
