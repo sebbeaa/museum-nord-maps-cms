@@ -29,7 +29,7 @@ export default defineConfig({
   auth: createAuthStore({
     redirectOnSingle: false,
     // make `mode` says "replace"
-    projectId: 's0874vj3',
+    projectId: null, //from .env
     dataset: 'production',
     mode: 'replace',
     providers: [
